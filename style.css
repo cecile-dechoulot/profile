@@ -1,0 +1,117 @@
+
+
+body {
+	background-color: #FBF7EF ;
+	color: black ;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color: #213529 ;
+	font-weight: 700 ;
+	font-size: 32px ;
+}
+
+h2 {
+	color: #638475 ;
+	font-weight: 400 ;
+	font-size: 32px ;
+}
+
+p {
+	color: black ;
+	font-weight: 200 ;
+	font-size: 17px ;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ /*custom design with class*/
+
+.container {
+	width: 700px ;
+	margin: 40px auto;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.card-beige {
+	padding: 10px 30px 30px 30px;
+	margin: 30px;
+	background: #F3E9D2 ;
+	border-radius:4px;
+	box-shadow : -2px 2px 10px rgba(99,132,117,.3)
+}
+
+.btn-green {
+	padding: 8px 10px ;
+	background-color: #213529 ;
+	color: #F3E9D2 ;
+	transition: background-color 0.3s ease ;
+	border-radius: 4px ;
+
+}
+
+.btn-green:hover {
+	background-color: #638475 ;
+	color: #F3E9D2 ;
+}
+
+.card-green {
+	padding: 10px;
+	margin: 30px;
+	background-color: #213529 ;
+	border-radius:4px;
+	box-shadow : -2px 2px 10px rgba(99,132,117,.9)
+}
+
+.card-green h2 {
+	color: #F3E9D2 ;
+}
+
+.card-green a {
+  color: #F3E9D2 ;
+  transition: color 0.3s ease;
+}
+
+.card-green a:hover {
+  color: #638475;
+ }
+
+.list-inline {
+	list-style: none ;
+	padding-left:0px;
+}
+
+.list-inline li {
+	font-size: 31px ;
+	display:inline;
+	padding: 10px;
+}
+
+@media (max-width: 760px) {
+	.container {
+	width : 600px
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+	width : 400px
+	}
+}
+
+/* design adujstments with id*/
+
+#intro p {
+	margin-bottom: 25px;
+}
